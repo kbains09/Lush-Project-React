@@ -9,7 +9,7 @@ const PurchasesList = () => {
   const total = subtotal + taxes;
 
   return (
-    <div>
+    <div className= 'purchases-list'>
       <h2>Purchases</h2>
       <ul>
         {products.map((product, index) => (
