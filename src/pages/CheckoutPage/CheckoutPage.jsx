@@ -7,7 +7,6 @@ function CheckoutPage() {
   return (
     <main>
       <ScanBarcode />
-      <h1>Checkout Page</h1>
       <PurchasesList />
       <CheckoutActions />
     </main>

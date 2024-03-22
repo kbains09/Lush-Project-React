@@ -11,7 +11,7 @@
   }
 
   &__button {
-    border: 2px solid palevioletred;
+    border: 2px solid black;
     border-radius: 0.5rem;
     font-size: 1.5rem;
     padding: 0.5rem 1rem;
@@ -21,5 +21,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &--checkout {
+      &:hover {
+        background-color: palevioletred;
+        color: white;
+        border: 2px solid palevioletred;
+      }
+    }
+
+    &--inventory {
+      &:hover {
+        background-color: olivedrab;
+        color: white;
+        border: 2px solid olivedrab;
+      }
+    }
+
+    &--reports {
+      &:hover {
+        background-color: steelblue;
+        color: white;
+        border: 2px solid steelblue;
+      }
+    }
+
+    &--settings {
+      &:hover {
+        background-color: darkorange;
+        color: white;
+        border: 2px solid darkorange;
+      }
+    }
+  }
+
+  &__button-text {
+    color: black;
   }
 }

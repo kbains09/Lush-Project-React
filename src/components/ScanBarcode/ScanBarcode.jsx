@@ -1,5 +1,6 @@
 import "./ScanBarcode.scss";
 import barcode from "../../assets/images/barcode.png";
+import { Link } from "react-router-dom";
 
 function ScanBarcode() {
   return (
@@ -10,20 +11,27 @@ function ScanBarcode() {
         <form action="" className="scan__form">
           <input
             type="text"
-            placeholder="SEARCH PRODUCT..."
+            placeholder="Search for a product"
             className="scan__search"
           />
           <div className="scan__container2">
             <input
               type="text"
-              placeholder="SELECTED PRODUCT"
+              placeholder="Selected Product"
               className="scan__product"
             />
-            <input type="text" placeholder="QUANTITY" className="scan__qty" />
+            <input
+              type="text"
+              placeholder="Quantity"
+              className="scan__quantity"
+            />
           </div>
           <div className="scan__container3">
             <button className="scan__btn-confirm">CONFIRM</button>
-            <button className="scan__btn-cancel">CANCEL</button>
+            {/* direct to home page */}
+            <Link to="/" className="scan__btn-cancel">
+              CANCEL
+            </Link>
           </div>
         </form>
       </div>

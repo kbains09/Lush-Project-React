@@ -11,6 +11,7 @@
     border: 1px black solid;
     padding: 0.5rem 6rem;
     font-size: 3rem;
+    font-family: "LushHandwritten";
   }
   &__img {
     margin: 2rem 0rem;
@@ -26,6 +27,7 @@
     padding: 1rem 8rem 1rem 3rem;
     font-size: 2rem;
     margin-bottom: 2rem;
+    font-family: "HelveticaNowDisplay";
   }
   &__container2 {
     width: 100%;
@@ -38,7 +40,7 @@
     margin-right: 2rem;
     margin-bottom: 2rem;
   }
-  &__qty {
+  &__quantity {
     padding: 1rem 3rem;
     margin-bottom: 2rem;
     font-size: 1.25rem;
