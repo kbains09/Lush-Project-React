@@ -3,7 +3,7 @@ import "./Footer.scss";
 function Footer() {
   return (
     <footer>
-      <h1>Footer</h1>
+      <p>Copyright © 2024 Lush Ltd x BrainStation </p>
     </footer>
   );
 }
