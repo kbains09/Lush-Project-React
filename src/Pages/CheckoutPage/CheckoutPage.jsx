@@ -1,11 +1,11 @@
 import "./CheckoutPage.scss";
-import ScanBarcode from "../../components/ScanBarcode/ScanBarcode";
 
 function CheckoutPage() {
   return (
-    <div>
-      <ScanBarcode />
-    </div>
+    <main>
+      <h1>Checkout Page</h1>
+    </main>
   );
 }
-import ScanBarcode from "../../components/ScanBarcode/ScanBarcode";
+
+export default CheckoutPage;

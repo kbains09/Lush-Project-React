@@ -8,8 +8,8 @@ import {
 
 // import pages
 import Header from "./components/Header/Header";
-import LandingPage from "./pages/LandingPage";
-import CheckoutPage from "./pages/CheckoutPage";
+import LandingPage from "./pages/LandingPage/LandingPage";
+import CheckoutPage from "./pages/CheckoutPage/CheckoutPage";
 import Footer from "./components/Footer/Footer";
 
 function App() {
