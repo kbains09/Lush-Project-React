@@ -3,7 +3,7 @@ import "./LandingPage.scss";
 function LandingPage() {
   return (
     <main>
-      <h1>Landing Page</h1>
+      <h1>LandingPage</h1>
     </main>
   );
 }
