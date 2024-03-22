@@ -27,7 +27,9 @@ function ScanBarcode() {
             />
           </div>
           <div className="scan__container3">
-            <button className="scan__btn-confirm">CONFIRM</button>
+            <Link to="/checkout" className="scan__btn-confirm">
+              CONFIRM
+            </Link>
             {/* direct to home page */}
             <Link to="/" className="scan__btn-cancel">
               CANCEL
